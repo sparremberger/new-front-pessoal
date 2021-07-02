@@ -1,0 +1,9 @@
+{
+  "name": "new-front-pessoal",
+  "version": "0.1.0",
+  "description": "novo frontend pro meu site pessoal",
+  "main": "index.js",
+  "author": "Alan Sparremberger <alan.rs@outlook.com>",
+  "license": "GPL v3",
+  "private": false
+}
