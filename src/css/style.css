@@ -1,0 +1,28 @@
+:root {
+    --dark-blue: rgb(9, 25, 47);
+    --div-dark-blue: rgb(17, 34, 64);
+    --lighter-blue: rgb(204, 214, 246);
+    --light-blue: rgb(136, 146, 176);
+    --light-green: rgb(60, 233, 218);
+}
+
+body {
+    background-color: var(--dark-blue);
+}
+
+span {
+    color: var(--light-green);
+}
+
+h1 {
+    color: var(--lighter-blue);
+}
+
+h2 {
+    color: var(--light-blue);
+}
+
+p {
+    color: var(--light-blue);
+}
+
