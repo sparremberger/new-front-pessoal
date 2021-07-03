@@ -11,3 +11,5 @@ src/SFMonoRegular.woff
 src/SFMonoRegularItalic.woff
 src/SFMonoSemibold.woff
 src/SFMonoSemiboldItalic.woff
+*.woff
+*.woff2
