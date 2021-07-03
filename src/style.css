@@ -110,6 +110,19 @@ h2 {
     font-size: 1.1em;
 }
 
+#top-button {
+    font-family: 'Calibre Regular';
+    height: 2em;
+    margin:0;
+    margin-top:-0.1em; /* Talvez seja bom usar o shorthand aqui? */
+    margin-left:1em;
+    padding-bottom:0;
+    padding-top:0.2em;
+    padding-left:1em;
+    padding-right:1em;
+    width:min-content;
+
+}
 p {
     color: var(--light-blue);
     font-family: "Calibre Regular";
