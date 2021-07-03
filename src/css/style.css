@@ -5,15 +5,22 @@
     --light-blue: rgb(136, 146, 176);
     --light-green: rgb(60, 233, 218);
     --button-hover: rgb(19, 48, 64);
+
+}
+
+@font-face {
+    font-family: Calibre;
+    src: url("/fonts/Calibre-Semibold.ttf");
 }
 
 body {
     background-color: var(--dark-blue);
-    font-family: Lato; /* Temp */
+    font-family: Calibre; /* Temp */
     display: flex;
     flex-direction: row;
     padding: 0;
     margin: 0;
+    height:5000px;
 }
 
 .content {
@@ -21,6 +28,7 @@ body {
     flex-direction: column;
     width: 75%;
     margin: auto;
+    margin-top:0;
 }
 
 span {
