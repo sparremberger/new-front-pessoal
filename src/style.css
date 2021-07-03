@@ -7,9 +7,11 @@
     --light-green: rgb(60, 233, 218);
     --button-hover: rgb(19, 48, 64);
 }
-* {
-    box-sizing: border-box;
-}
+
+
+html {
+    scroll-behavior: smooth;
+  }
 
 #navigation {
     display: flex;
@@ -112,6 +114,15 @@ p {
     color: var(--light-blue);
     font-family: "Calibre Regular";
     font-size: 1.1em;
+}
+
+#dash {
+    align-items: center;
+    margin:auto;
+    margin-left:2em;
+    margin-top:2.2em;
+    width:18em;
+    border-bottom:1px solid rgba(99, 99, 99, 0.39);
 }
 
 /* São os "pilares" à esquerda e a direita da seção de conteúdo. */
