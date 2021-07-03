@@ -11,9 +11,16 @@ body {
     background-color: var(--dark-blue);
     font-family: Lato; /* Temp */
     display: flex;
+    flex-direction: row;
     padding: 0;
     margin: 0;
-    height: 4000px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
 }
 
 span {
@@ -23,9 +30,7 @@ span {
 .main {
     display: flex;
     flex-direction: column;
-    width: 75%;
-    margin-left: 5%; /* centraliza sempre */
-    margin-right: 0;
+    margin-top: 0;
 }
 
 h1 {
@@ -46,7 +51,6 @@ h2 {
 
 .text-block {
     width: 50%;
-
     text-align: left;
     font-size: 1.1em;
 }
@@ -54,6 +58,66 @@ h2 {
 p {
     color: var(--light-blue);
 }
+
+/* São os "pilares" à esquerda e a direita da seção de conteúdo. */
+.decor {
+    height: 100vh;
+}
+.left {
+    width: 1px;
+    margin-top: 25%;
+    margin-left: 5%;
+    overflow: hidden;
+    position: fixed;
+
+    border-left: 2px dotted white;
+}
+.right {
+    margin-top: 25%;
+    writing-mode: vertical-lr;
+    width: 100px;
+    overflow: hidden;
+    position: fixed;
+    margin-left: 92%; /* Hackzão, mas não consegui resolver na elegância. */
+}
+/* Fim do Pilares */
+
+.about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px dotted white;
+    width: 90%;
+    margin: auto;
+    margin-top: 4em;
+}
+
+.break {
+    height: 0;
+    flex-basis: 100%;
+}
+
+h3 {
+    color: var(--lighter-blue);
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    height: 0;
+}
+
+.about .text-block {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 30%;
+    margin: auto;
+    margin-top: 2em;
+    box-shadow: 5px 5px var(--light-green);
+    
+}
+
+
 
 button {
     display: inline-block;
