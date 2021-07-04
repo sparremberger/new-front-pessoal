@@ -27,3 +27,5 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 } 
+
+console.log(document.getElementById("#experiencia > ul > li:nth-child(4)"));
